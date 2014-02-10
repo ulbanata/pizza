@@ -10,4 +10,10 @@ describe Topping do
   it "exists" do
     expect(Topping).to be_a(Class)
   end
+  describe '.initialize' do
+    it "sets the name of the topping" do
+
+    expect(toppy.name).to eq('olives')
+    end
+  end
 end
